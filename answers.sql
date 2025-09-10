@@ -30,6 +30,8 @@ FROM products p
 #Results2
 LEFT JOIN productlines pl
     ON p.productLine = pl.productLine;
+
+#Results3
     15:54:20	SELECT  p.productName, p.productVendor, p.productLine FROM products p LEFT JOIN productlines pl     ON p.productLine = pl.productLine LIMIT 0, 1000	110 row(s) returned	0.016 sec / 0.000 sec
 
 
